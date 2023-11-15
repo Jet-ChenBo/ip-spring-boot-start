@@ -1,0 +1,4 @@
+iptools:
+  cycle: 1
+  cycleReset: false
+  model: detail

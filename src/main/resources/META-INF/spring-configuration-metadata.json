@@ -1,0 +1,46 @@
+{
+  "groups": [
+    {
+      "name": "iptools",
+      "type": "com.chenb.properties.IpProperties",
+      "sourceType": "com.chenb.properties.IpProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "iptools.cycle",
+      "type": "java.lang.Long",
+      "description": "日志显示周期",
+      "sourceType": "com.chenb.properties.IpProperties",
+      "defaultValue": 5
+    },
+    {
+      "name": "iptools.cycle-reset",
+      "type": "java.lang.Boolean",
+      "description": "是否周期内重置数据",
+      "sourceType": "com.chenb.properties.IpProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "iptools.model",
+      "type": "java.lang.String",
+      "description": "日志显示模式",
+      "sourceType": "com.chenb.properties.IpProperties"
+    }
+  ],
+  "hints": [
+    {
+      "name": "iptools.model",
+      "values": [
+        {
+          "value": "detail",
+          "description": "明细模式."
+        },
+        {
+          "value": "simple",
+          "description": "极简模式."
+        }
+      ]
+    }
+  ]
+}
